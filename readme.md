@@ -8,11 +8,11 @@ Pages
 - Cart : the main function to call api to calculate the discount and product in cart
 
 PATH of project
-can check all path of project `/src/constant/path.route.ts`
-path of API `/src/constant/api.route.ts`
+- can check all path of project `/src/constant/path.route.ts`
+- path of API `/src/constant/api.route.ts`
 
 Fetching API
-`/src/service/*`
+- `/src/service/*`
 
 # Backend
 
@@ -29,6 +29,6 @@ example of configs of discount
 ### postgreSQL
 
 Schema of db
-`/prisma/schema.prisma`
+- `/prisma/schema.prisma`
 
 Use Dockercompose for db server
