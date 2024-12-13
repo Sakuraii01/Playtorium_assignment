@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100;
+}
+
+@layer base {
+  h1 {
+    @apply text-slate-700 font-semibold text-lg;
+  }
+  h3 {
+    @apply text-slate-700 font-semibold text-sm mt-4;
+  }
+  input {
+    @apply border border-slate-300 rounded-xl px-5 py-2 w-full;
+  }
+  .inputRadio {
+    @apply w-fit cursor-pointer;
+  }
+  label {
+    @apply text-xs;
+  }
+  button {
+    @apply text-sm rounded-xl px-5 py-2;
+  }
+  .primary-button {
+    @apply bg-indigo-900 text-white hover:bg-indigo-700;
+  }
+  .secondary-button {
+    @apply bg-white text-indigo-700 border border-indigo-700;
+  }
+}
